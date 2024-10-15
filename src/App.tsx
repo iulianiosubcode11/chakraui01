@@ -1,13 +1,18 @@
 import "./App.css";
-import { Features } from "./components/Features";
+import { Feats, Features } from "./components/Features";
 
 import { Header } from "./components/Header";
 import { Pricing } from "./components/Pricing";
 
 function App() {
 	return (
-		
-			<><Header /><Pricing /><Features/></>
+		<>
+			<Header />
+			<Pricing />
+			<Feats />
+
+			{/* <Features /> */}			
+		</>
 	);
 }
 
