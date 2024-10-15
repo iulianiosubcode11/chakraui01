@@ -2,7 +2,7 @@ import { Box, Heading, Text, Flex, Stack, HStack, VStack } from "@chakra-ui/reac
 
 export function Header() {
 	return (
-		<Flex direction='column' fontFamily="Inter, sans-serif" as="section" color="#F7FAFC" bg="#6B46C1" pt="90px" pb="198" px="32px">
+		<Flex direction='column' fontFamily="Inter, sans-serif" as="section" color="#F7FAFC" bg="#6B46C1" pt="90px" pb="198" px="32px" textAlign={['left', 'left', 'center']}>
 			<Heading fontWeight='800' fontSize={['30px', '30px', '48px']} fontFamily="Inter, sans-serif">
 				Simple pricing for your business
 			</Heading>

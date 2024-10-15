@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	align-items: flex-start;
+	align-items: flex-start!important;
 }
 
 #root {
