@@ -51,7 +51,7 @@ export function Feats() {
 				<MontlySub />
 				<Text textAlign="left" fontSize={["18px", "18px", "20px"]} fontWeight="700" w='100%'>
 				No monthly subscription 
-				Pay once and for all
+				Pay once and for al
 				</Text>
 			</Flex>
 		</Flex>
