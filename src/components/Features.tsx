@@ -32,7 +32,7 @@ export function Features() {
 
 export function Feats() {
 	return (
-		<Flex maxW="962px" gap={["16px", "18px", "20px"]} m="auto" py={["48px", "48px", "56px"]} px={["32px", "32px", "32px"]} direction={["column", "column", "row"]} align={["left", "center", "left"]}>
+		<Flex maxW="962px" gap={["16px", "18px", "20px"]} m="auto" py={["48px", "48px", "56px"]} px={["32px", "32px", "32px"]} direction={["column", "column", "row"]} align={["left", "left", "left"]}>
 			<Flex gap={["12px", "16px", "16px"]} align="center">
 				<MoneyBack />
 				<Text textAlign="left" fontSize={["18px", "18px", "20px"]} fontWeight="700">
